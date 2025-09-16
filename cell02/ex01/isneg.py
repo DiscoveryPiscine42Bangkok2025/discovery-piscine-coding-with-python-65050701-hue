@@ -1,4 +1,6 @@
-number = int(input())
+number = int(input("Enter a number: "))
+print(number)
+
 if number < 0:
     print("This number is negative.")
 elif number > 0:
